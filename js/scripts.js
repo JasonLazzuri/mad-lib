@@ -7,12 +7,16 @@ $(document).ready(function() {
     var verbInput = $("input#verb").val();
     var nounInput = $("input#noun").val();
 
+    var birdInput = $("input#bird").val();
+
     $(".person1").text(person1Input);
     $(".person2").text(person2Input);
     $(".animal").text(animalInput);
     $(".exclamation").text(exclamationInput);
     $(".verb").text(verbInput);
     $(".noun").text(nounInput);
+
+    $(".bird").text(birdInput);
 
     $("#story").show();
 
